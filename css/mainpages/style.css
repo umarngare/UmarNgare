@@ -441,6 +441,14 @@
       margin-top: 0.2rem;
     }
 
+    /* Work info title links */
+    .work-info-title a {
+      color: var(--paper);
+      text-decoration: none;
+      transition: color 0.2s;
+    }
+    .work-info-title a:hover { color: var(--fire); }
+
     /* ── SERVICES ── */
     #services { background: var(--white); }
 
